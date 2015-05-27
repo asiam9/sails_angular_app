@@ -1,7 +1,7 @@
 # socialfleet
-
-- Unable to > sails generate api
-https://github.com/marley-nodejs/Two-Tier-Enterprise-App-and-API-Development-with-Angular-and-Sails/
+[2 tier enterprise app Node and Anglular](http://www.pluralsight.com/courses/two-tier-enterprise-app-api-development-angular-sails)
+- manually added sails.bat in Windows/System32 to generate sails scaffolding
+- Unable to > sails generate api  
 
 ## Scaffold and Launch Sails
 * > sails new --no-frontend
