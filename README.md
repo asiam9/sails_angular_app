@@ -15,8 +15,8 @@
 - Twitter App:  CB URL =  http://127.0.0.1:8000
 
 ## Angular Setup
-- new `backend` folder move everything into
-**Bower** + **Gulp**
+- new `backend` folder, move all files into it
+- **Bower** + **Gulp**
 - new `frontend` folder  +   > npm init  +  > *npm install bower --save-dev*  
 - > bower init    +    > bower install angular --save     
 - > npm install gulp --save-dev
@@ -26,4 +26,3 @@
 - Creating `gulp tasks` to inject JS/CSS files and add to */temp* folder
 - add *vendorInject:js* and :cs to pull from bower
 - setup gulp `watch` task to rebuild on any changes made to directories + *livereload*
-- 
