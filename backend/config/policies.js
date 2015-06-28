@@ -10,10 +10,10 @@
  * below by its filename, minus the extension, (e.g. "authenticated")
  *
  * For more information on how policies work, see:
- * http://sailsjs.org/#!/documentation/concepts/Policies
+ * http://sailsjs.org/#/documentation/concepts/Policies
  *
  * For more information on configuring policies, check out:
- * http://sailsjs.org/#!/documentation/reference/sails.config/sails.config.policies.html
+ * http://sailsjs.org/#/documentation/reference/sails.config/sails.config.policies.html
  */
 
 
@@ -26,15 +26,18 @@ module.exports.policies = {
   *                                                                          *
   ***************************************************************************/
 
-  '*': false,
-
-  UserController: {
-    login: true
-  },
-
-  PostController: {
-    tweet: ['jwtAuth']
-  }
+   '*': false,
+	
+	UserController: {
+		login: true
+	},	
+	PostController: {
+		tweet: ['jwtAuth'],
+		myPosts: ['jwtAuth'],
+		findOne: ['jwtAuth', 'ownResource'],
+		update: ['jwtAuth', 'ownResource'],
+		destroy: ['jwtAuth', 'ownResource']
+	}
 
   /***************************************************************************
   *                                                                          *

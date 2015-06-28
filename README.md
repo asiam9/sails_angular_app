@@ -1,7 +1,9 @@
 # socialfleet
 [2 tier enterprise app Node and Anglular](http://www.pluralsight.com/courses/two-tier-enterprise-app-api-development-angular-sails)
 - manually added sails.bat in Windows/System32 to generate sails scaffolding
-- Unable to > sails generate api  
+- 'Invalid or expired token' error message
+
+- Tweet Scheduler App
 
 ### Running
 - /frontend    > gulp
